@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Elvis.A Portfolio</title>
+  <title>About</title>
   <meta name="description" content="Junior Web Developers personal website www.elvis-a.com">
 
   <link rel="stylesheet" href="/assets/eportfolio.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/about/">
   <link rel="alternate" type="application/rss+xml" title="Elvis.A Portfolio" href="/feed.xml">
 
   <!--Font awesome-->
@@ -96,145 +96,27 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 
     <main class="page-content" aria-label="Content">
-        <div class="home">
-  <div class="container">
-    <div id="about" class="space">
-      <h1 class="title has-text-centered">ABOUT</h1>
-      <div class="columns">
-        <div class="column is-one-third justify revealOnScroll slideRight">
-          <h2 class="subtitle">Hi my Name is Elvijs</h2>
-          <p class="italic">I'm a Junior Web Developer living in Bury st Edmunds, I enjoy working with HTML, CSS, PHP, JS and currently working on Laravel CMS</p>
-          <h2 class="subtitle">Experience</h2>
-          Version Control, Bootstrap, Bulma, Responsive Design, VueJS, Laravel, Yekyll, PhotoShop, Illustrator, Adobe XD
-        </div>
-        <div class="column is-one-third justify">
-          <img class="me" src="assets/images/me.png" alt="Elvis.A Portfolio" width="100%">
-        </div>
-        <div class="column is-one-third revealOnScroll slideLeft">
-          <h2 class="subtitle">Skills</h2>
-          <small>HTML</small>
-          <progress class="progress is-small" value="95" max="100">95%</progress>
-          <small>CSS/SASS</small>
-          <progress class="progress is-small" value="75" max="100">75%</progress>
-          <small>JS/JQUERY</small>
-          <progress class="progress is-small" value="45" max="100">45%</progress>
-          <small>PHP</small>
-          <progress class="progress is-small" value="85" max="100">85%</progress>
-      </div>
-    </div>
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
+
+  <div class="post-content">
+    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for Minima at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/minima">minima</a></p>
+
+<p>You can find the source code for Jekyll at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+
+
   </div>
-</div>
 
-  <div class="dark-bg space">
-  <div class="container">
-    <div id="portfolio">
-      <h1 class="title has-text-centered">PORTFOLIO</h1>
-      <div class="columns">
-
-        <div class="column revealOnScroll scaleUp">
-          <div class="work-trigger">
-              <figure id="work" class="image is-square">
-                <img class="work" src="assets/images/work1.png">
-                <a href="">
-                  <div class="work-content justify has-text-centered">
-                    <h2>Elvis.A Portfolio</h2>
-                    <p>Personal Project</p>
-                    <p>Jakyll, SASS, JS, Bulma</p>
-                    <p><small><a href="">www.elvis-a.com</a></small></p>
-                  </div>
-                </a>
-              </figure>
-            </div>
-          </div>
-
-        <div class="column revealOnScroll scaleUp">
-          <div class="work-trigger">
-            <figure id="work" class="image is-square">
-              <img class="work" src="assets/images/work2.png" data-target="work">
-              <a href="">
-                <div class="work-content justify has-text-centered">
-                  <h2>Ecodews CMS</h2>
-                  <p>Personal Project</p>
-                  <p>Laravel, SASS, VUE, JS, JQUERY, BULMA</p>
-                  <p><small>In Development</small></p>
-                </div>
-              </a>
-            </figure>
-          </div>
-        </div>
-
-        <div class="column revealOnScroll scaleUp">
-          <div class="work-trigger">
-            <figure id="work" class="image is-square">
-              <img class="work" src="assets/images/work3.png">
-              <a href="">
-                <div class="work-content justify has-text-centered">
-                  <h2>ECODEWS BLOG</h2>
-                  <p>MVC</p>
-                  <p>HTML, CSS, JS, JQUERY, AJAX</p>
-                  <p><small><a href="">www.ecodews.com</a></small></p>
-                </div>
-            </figure>
-          </div>
-        </div>
-      </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-$('.work-trigger').on('click', function(){
-  $(this).toggleClass('clicked');
-});
-</script>
-
-  <div class="container">
-  <div id="contact" class="space">
-    <h1 class="title has-text-centered">CONTACT</h1>
-    <div class="columns">
-      <div class="column is-one-third justify revealOnScroll">
-      <p><i class="fa fa-home fa-2x" aria-hidden="true"></i>
-      <strong>Location</strong> :
-      Bury st Edmunds
-      </p>
-      <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
-      <strong>Phone</strong> :
-      07460091929
-      </p>
-      <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-      <strong>Email</strong> :
-      eandrusjaks@gmail.com
-      </p>
-      </div>
-      <div class="column">
-        <form action="https://formspree.io/eandrusjaks@gmail.com" method="POST">
-        <div class="columns">
-          <div class="column">
-            <input class="input" type="text" placeholder="Your Name" name="name">
-          </div>
-          <div class="column">
-            <input class="input" type="text" placeholder="Email" name="email">
-          </div>
-        </div>
-        <div class="columns">
-          <div class="column">
-            <textarea class="textarea" name="message" placeholder="Your message" rows="6" cols="80"></textarea>
-          </div>
-        </div>
-        <input class="button" type="submit" value="Send">
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  
-
-</div>
-<script src="assets/js/on-scroll-animation.js" charset="utf-8"></script>
+</article>
 
     </main>
 
