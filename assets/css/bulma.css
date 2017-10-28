@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Oswald");
 /*! bulma.io v0.6.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -6059,6 +6058,7 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+<<<<<<< HEAD:assets/eportfolio.css
 
 /**
  * Reset some basic elements
@@ -6504,3 +6504,5 @@ ul.enav-list {
 
 .in-view.scaleUp {
   transform: scale(1); }
+=======
+>>>>>>> Cleanup:assets/css/bulma.css
