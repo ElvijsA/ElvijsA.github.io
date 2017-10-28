@@ -6450,11 +6450,11 @@ ul.enav-list {
 
 .revealOnScroll {
   opacity: 0;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  transition: all 1s ease-in-out; }
+  transition: all 1.5s ease-in-out; }
 
 .in-view {
   opacity: 1; }
