@@ -6354,9 +6354,6 @@ pre {
   .highlight .il {
     color: #099; }
 
-.container {
-  padding: 0 5px; }
-
 .navbar {
   background-color: #none; }
 
@@ -6381,6 +6378,12 @@ ul.enav-list {
 
 .progress:not(:last-child) {
   margin-bottom: 0.5rem; }
+
+.container {
+  padding: 0 10px; }
+  @media screen and (max-width: 800px) {
+    .container {
+      padding: 0 20px; } }
 
 .justify {
   display: flex;
