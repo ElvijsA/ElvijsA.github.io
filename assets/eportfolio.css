@@ -6484,11 +6484,8 @@ ul.enav-list {
       margin: 0px; }
 
 .work-trigger.clicked .work {
-  transform: translate(0px, -40%) scale(1.1); }
-  @media screen and (min-width: 800px) {
-    .work-trigger.clicked .work {
-      transform: translate(0px, -50%) scale(1.1); } }
-  @media screen and (min-width: 800px) and (min-width: 1200px) {
+  transform: translate(0px, -50%) scale(1.1); }
+  @media screen and (min-width: 1200px) {
     .work-trigger.clicked .work {
       transform: translate(0px, -40%) scale(1.1); } }
 
