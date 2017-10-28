@@ -6355,7 +6355,7 @@ pre {
     color: #099; }
 
 .container {
-  padding: 0 10px; }
+  padding: 0 5px; }
 
 .navbar {
   background-color: #none; }
@@ -6447,11 +6447,11 @@ ul.enav-list {
 
 .revealOnScroll {
   opacity: 0;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  transition: all 2s ease-in-out; }
+  transition: all 1s ease-in-out; }
 
 .in-view {
   opacity: 1; }
@@ -6481,7 +6481,7 @@ ul.enav-list {
       margin: 0px; }
 
 .work-trigger.clicked .work {
-  transform: translate(0px, -35%) scale(1.1); }
+  transform: translate(0px, -40%) scale(1.1); }
   @media screen and (min-width: 800px) {
     .work-trigger.clicked .work {
       transform: translate(0px, -50%) scale(1.1); } }
@@ -6489,12 +6489,12 @@ ul.enav-list {
     .work-trigger.clicked .work {
       transform: translate(0px, -40%) scale(1.1); } }
 
-.slideRight {
-  transform: translate(-200px, 0px); }
+@media screen and (min-width: 800px) {
+  .slideRight {
+    transform: translate(-200px, 0px); }
 
-.slideLeft {
-  transform: translate(200px, 0px); }
-
+  .slideLeft {
+    transform: translate(200px, 0px); } }
 .scaleUp {
   transform: scale(0.8); }
 

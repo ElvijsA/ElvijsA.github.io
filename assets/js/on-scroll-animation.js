@@ -9,7 +9,7 @@ function check_if_in_view() {
   $.each($animation_elements, function() {
     var $element = $(this);
     var element_height = $element.outerHeight();
-    var element_top_position = $element.offset().top + $element.outerHeight() / 2;
+    var element_top_position = $element.offset().top + $element.outerHeight() / 5;
     var element_bottom_position = (element_top_position + element_height);
 
     //check to see if this current container is within viewport
