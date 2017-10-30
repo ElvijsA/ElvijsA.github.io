@@ -337,6 +337,11 @@ ul.enav-list {
 .progress:not(:last-child) {
   margin-bottom: 0.5rem; }
 
+@media screen and (min-width: 769px) {
+  .modal-content, .modal-card {
+    max-width: 1200px;
+    width: 96%;
+    max-height: 80%; } }
 .container {
   padding: 0 10px; }
   @media screen and (max-width: 800px) {
@@ -374,8 +379,9 @@ ul.enav-list {
     font-weight: bold;
     color: #fff; }
   .hero-image .subtitle {
-    color: #ddd;
-    font-size: 1rem; }
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400; }
 
 .hero-text {
   text-align: center;
