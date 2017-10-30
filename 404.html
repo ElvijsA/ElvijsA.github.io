@@ -12,13 +12,15 @@
   <link rel="stylesheet" href="/assets/css/bulma.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/eportfolio.css">
+
   <link rel="canonical" href="http://localhost:4000/404.html">
   <link rel="alternate" type="application/rss+xml" title="Elvis.A Portfolio" href="/feed.xml">
 
   <!--Font awesome-->
 
 
-  <script src='assets/js/jquery-3.2.1.min.js'></script>
+  <script src='/assets/js/jquery-3.2.1.min.js'></script>
+  <script src='/assets/js/contact-validation.js'></script>
 
   
 </head>
@@ -36,7 +38,7 @@
 
         <div class="navbar-brand">
           <a class="navbar-item revealOnScroll slideRight" href="/">
-            <img src="assets/images/e-logo.png" alt="Elvis.A Portfolio" width="112" height="28">
+            <img src="/assets/images/e-logo.png" alt="Elvis.A Portfolio" width="112" height="28">
           </a>
 
           <button class="button navbar-burger" data-target="navMenu">
@@ -49,9 +51,9 @@
         <div class="navbar-menu revealOnScroll" id="navMenu">
           <div class="navbar-end">
             <ul class="enav-list">
-              <li><a class="navbar-item page-link has-text-centered" href="#about">About</a></li>
-              <li><a class="navbar-item page-link has-text-centered" href="#portfolio">Portfolio</a></li>
-              <li><a class="navbar-item page-link has-text-centered" href="#contact">Contact</a></li>
+              <li><a class="navbar-item page-link has-text-centered" href="/#about">About</a></li>
+              <li><a class="navbar-item page-link has-text-centered" href="/#portfolio">Portfolio</a></li>
+              <li><a class="navbar-item page-link has-text-centered" href="/#contact">Contact</a></li>
 
             </ul>
           </div>
@@ -88,14 +90,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 </script>
-
-    <div class="hero-image">
-  <div class="hero-text revealOnScroll">
-    <h1 class="title">Elvijs Andrusjaks</h1>
-    <h2 class="subtitle">JUNIOR WEB DEVELOPER</p>
-    <a class="button oswald" href="#contact">Get In Touch</a>
-  </div>
-</div>
 
     <main class="page-content" aria-label="Content">
         <style type="text/css" media="screen">
@@ -166,4 +160,5 @@ document.addEventListener('DOMContentLoaded', function () {
   gtag('config', 'UA-96594091-2');
 </script>
 
+  <script src="/assets/js/on-scroll-animation.js" charset="utf-8"></script>
 </html>
