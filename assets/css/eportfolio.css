@@ -431,6 +431,7 @@ ul.enav-list {
     position: absolute;
     bottom: 10px;
     width: 100%;
+    height: 70px;
     z-index: 1; }
     #work .work-content h2 {
       color: #fff;
