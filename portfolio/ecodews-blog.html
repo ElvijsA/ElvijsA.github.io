@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Ecodews</title>
-  <meta name="description" content="EcodewsBlog CMS About Project Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#39;s standard dummy t...">
+  <meta name="description" content="EcodewsBlog CMS About Project This project helped me to improve the base of HTML, CSS and PHP. The project target was to create new Brand “ECODEWS” and bring...">
 
   <link rel="stylesheet" href="/assets/css/bulma.css">
   <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
@@ -97,75 +97,90 @@ document.addEventListener('DOMContentLoaded', function () {
     <h1 class="title">Ecodews</h1><h3 class="subtitle">Blog CMS</h3>
 <div class="columns">
   <div class="column">
-     <img id="image-view" class="work" src="/assets/images/portfolio/Ecodews/ecodews_landing_page.jpg">
-     <div class="columns">
+    <a class="e-image" href="/assets/images/portfolio/Ecodews/ecodews_landing_page.jpg">
+      <img class="work" src="/assets/images/portfolio/Ecodews/ecodews_landing_page.jpg">
+    </a>
+     <div class="columns space">
       <div class="column">
-        <img id="image-view" class="work" src="/assets/images/portfolio/Ecodews/ecodews_landing_latest.jpg">
+        <a class="e-image" href="/assets/images/portfolio/Ecodews/ecodews_landing_latest.jpg">
+          <img class="work" src="/assets/images/portfolio/Ecodews/ecodews_landing_latest.jpg">
+        </a>
       </div>
       <div class="column">
-        <img id="image-view" class="work" src="/assets/images/portfolio/Ecodews/ecodews_blog.jpg">
+        <a class="e-image" href="/assets/images/portfolio/Ecodews/ecodews_blog.jpg">
+          <img class="work" src="/assets/images/portfolio/Ecodews/ecodews_blog.jpg">
+        </a>
       </div>
       <div class="column">
-        <img id="image-view" class="work" src="/assets/images/portfolio/Ecodews/ecodews_landing_page.jpg">
+        <a class="e-image" href="/assets/images/portfolio/Ecodews/ecodews_blog_comment.jpg">
+          <img class="work" src="/assets/images/portfolio/Ecodews/ecodews_blog_comment.jpg">
+        </a>
       </div>
      </div>
   </div>
   <div class="column is-one-third">
     <h2 class="title">About Project</h2>
       <div class="about">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        This project helped me to improve the base of HTML, CSS and PHP.
+        <br>The project target was to create new Brand “ECODEWS” and bring new visitors to the website; using popular traffic sources such as Youtube, Facebook and Google(organic search). It let me see more of the SEO side of Web Development, bringing new visitors to the website and following their behaviours using Google Analytics. Ecodews reached a maximum of 77 website daily visitors.
+        <br>This projects helped me to understand how important is to keep code tidy and organized. When project scaled it get harder to organize and manage code. That's when I discovered MVC pattern and started to explore Frameworks.
       </div>
     <h2 class="title">Technologies</h2>
+      <div class="about">
       HTML, CSS, JS, JQUERY, AJAX
+    </div>
+    <h2 class="title">More Info</h2>
+
+    Visit: <a href="http://ecodews.com" target="_blank">www.ecodews.com</a>
+    <img src="/assets/images/portfolio/Ecodews/ecodews_max_daily_visits.jpg">
   </div>
 </div>
 
   </div>
-</div>
-<div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
+  <div class="container space">
+    <h1 class="title">More Projects</h1>
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <div class="columns">
+          
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/elvis-portfolio">
+         <img class="latest-img" src="/assets/images/portfolio/Elvis-A/elvis-a_portfolio_website_small.jpg">
+      </a>
+     </div>
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/ecodews-cms">
+         <img class="latest-img" src="/assets/images/portfolio/Ecodews-Laravel/work2.jpg">
+      </a>
+     </div>
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/ecodews-blog">
+         <img class="latest-img" src="/assets/images/portfolio/Ecodews/work3.jpg">
+      </a>
+     </div>
+ 
 
-      <img id="modal-img" src="https://bulma.io/images/placeholders/1280x960.png" alt="">
-
+        </div>
+      </div>
+    </div>
   </div>
-  <button class="modal-close is-large" aria-label="close"></button>
 </div>
-<script>
-$('.modal-close').click(function(){
-  $('.modal').removeClass('is-active')
-});
-$('.modal-background').click(function(){
-  $('.modal').removeClass('is-active')
-});
-
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  // Get all "navbar-burger" elements
-  var $images = Array.prototype.slice.call(document.querySelectorAll('#image-view'), 0);
-
-
-  // Check if there are any navbar burgers
-  if ($images.length > 0) {
-  // Add a click event on each of them
-    $images.forEach(function ($image) {
-      $image.addEventListener('click', function () {
-
-        // Get the target from the "data-target" attribute
-        var imagesrc = $image.src;
-        $('#modal-img').attr('src', imagesrc);
-
-        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-        $('.modal').addClass('is-active');
-      });
-    });
-  }
-
-
-});
-</script>
+<div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <p class="image">
+        <img id="modal-image" src="" alt="">
+        <div class="modal-arrows">
+          <div id="previous" onclick="plusImage(-1)" class="arrow"></div>
+          <div id="next" class="arrow" onclick="plusImage(1)"></div>
+      </div>
+      </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
 
 
     </main>
@@ -215,5 +230,6 @@ document.addEventListener('DOMContentLoaded', function () {
   gtag('config', 'UA-96594091-2');
 </script>
 
-  <script src="/assets/js/on-scroll-animation.js" charset="utf-8"></script>
+  <script src="/assets/js/on-scroll-animation.js"></script>
+  <script src="/assets/js/e-image.js"></script>
 </html>

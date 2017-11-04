@@ -96,51 +96,50 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="container">
     
   </div>
-</div>
-<div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
+  <div class="container space">
+    <h1 class="title">More Projects</h1>
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <div class="columns">
+          
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/elvis-portfolio">
+         <img class="latest-img" src="/assets/images/portfolio/Elvis-A/elvis-a_portfolio_website_small.jpg">
+      </a>
+     </div>
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/ecodews-cms">
+         <img class="latest-img" src="/assets/images/portfolio/Ecodews-Laravel/work2.jpg">
+      </a>
+     </div>
+ 
+    <div class="column revealOnScroll scaleUp">
+      <a href="../portfolio/ecodews-blog">
+         <img class="latest-img" src="/assets/images/portfolio/Ecodews/work3.jpg">
+      </a>
+     </div>
+ 
 
-      <img id="modal-img" src="https://bulma.io/images/placeholders/1280x960.png" alt="">
-
+        </div>
+      </div>
+    </div>
   </div>
-  <button class="modal-close is-large" aria-label="close"></button>
 </div>
-<script>
-$('.modal-close').click(function(){
-  $('.modal').removeClass('is-active')
-});
-$('.modal-background').click(function(){
-  $('.modal').removeClass('is-active')
-});
-
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  // Get all "navbar-burger" elements
-  var $images = Array.prototype.slice.call(document.querySelectorAll('#image-view'), 0);
-
-
-  // Check if there are any navbar burgers
-  if ($images.length > 0) {
-  // Add a click event on each of them
-    $images.forEach(function ($image) {
-      $image.addEventListener('click', function () {
-
-        // Get the target from the "data-target" attribute
-        var imagesrc = $image.src;
-        $('#modal-img').attr('src', imagesrc);
-
-        // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-        $('.modal').addClass('is-active');
-      });
-    });
-  }
-
-
-});
-</script>
+<div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+      <p class="image">
+        <img id="modal-image" src="" alt="">
+        <div class="modal-arrows">
+          <div id="previous" onclick="plusImage(-1)" class="arrow"></div>
+          <div id="next" class="arrow" onclick="plusImage(1)"></div>
+      </div>
+      </p>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
 
 
     </main>
@@ -190,5 +189,6 @@ document.addEventListener('DOMContentLoaded', function () {
   gtag('config', 'UA-96594091-2');
 </script>
 
-  <script src="/assets/js/on-scroll-animation.js" charset="utf-8"></script>
+  <script src="/assets/js/on-scroll-animation.js"></script>
+  <script src="/assets/js/e-image.js"></script>
 </html>
