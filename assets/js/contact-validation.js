@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(function() {
   var error = false;
   function check_name() {
     var name_lenght = $('#contact-name').val().length;
