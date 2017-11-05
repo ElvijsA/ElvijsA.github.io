@@ -19,8 +19,8 @@
   <!--Font awesome-->
 
 
-  <script src='/assets/js/jquery-3.2.1.min.js'></script>
-  <script src='/assets/js/contact-validation.js'></script>
+  <script async src='/assets/js/jquery-3.2.1.min.js'></script>
+  <script async src='/assets/js/contact-validation.js'></script>
 
   
 </head>
@@ -206,7 +206,7 @@ $('.work-trigger').on('click', function(){
       </p>
       <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>
       <strong>Phone</strong> :
-      07460091929
+      Available on Email Request
       </p>
       <p><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
       <strong>Email</strong> :
@@ -218,14 +218,17 @@ $('.work-trigger').on('click', function(){
         <div class="columns">
           <div class="column">
             <input class="input" type="text" placeholder="Your Name" name="name" id="contact-name">
+            <span class="help is-danger name-error"></span>
           </div>
           <div class="column">
             <input class="input" type="text" placeholder="Email" name="email" id="contact-email">
+            <span class="help is-danger email-error"></span>
           </div>
         </div>
         <div class="columns">
           <div class="column">
             <textarea class="textarea" name="message" placeholder="Your message" rows="6" cols="80" id="contact-message"></textarea>
+            <span class="help is-danger message-error"></span>
           </div>
         </div>
         <input class="button" type="submit" value="Send">
