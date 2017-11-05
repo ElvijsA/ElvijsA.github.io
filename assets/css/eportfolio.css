@@ -391,7 +391,7 @@ ul.enav-list {
   transform: translate(-50%, -50%); }
 
 .space {
-  padding: 2rem 0.5rem; }
+  padding: 3rem 0.5rem; }
 
 #about {
   padding-bottom: 6rem; }
@@ -405,7 +405,7 @@ ul.enav-list {
     font-size: 1rem;
     font-style: italic; }
 
-#portfolio .title {
+#portfolio .title, .dark-bg .title {
   color: #fff; }
 
 #contact .fa {
@@ -489,7 +489,7 @@ ul.enav-list {
     border: 1px solid #ddd; }
   #portfolio-single .about {
     font-size: 14px;
-    padding-bottom: 20px; }
+    padding-bottom: 2rem; }
   #portfolio-single .column .title {
     font-size: 1.4rem; }
 
