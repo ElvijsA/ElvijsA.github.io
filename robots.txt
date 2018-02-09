@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://elvijsa.github.io/feed.xml
