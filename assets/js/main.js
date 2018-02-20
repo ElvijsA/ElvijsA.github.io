@@ -8,8 +8,8 @@ $(function() {
       $('.name-error').text('Name must be 3 to 20 characters long');
       error = true;
     }else{
-	  $('.message-error').text('');
       $('#contact-name').removeClass('is-danger');
+      $('.name-error').text('');
     }
   }
 
@@ -21,8 +21,8 @@ $(function() {
       $('#contact-message').addClass('is-danger');
       error = true;
     }else{
-	  $('.message-error').text('');
       $('#contact-message').removeClass('is-danger');
+      $('.message-error').text('');
     }
   }
 
@@ -30,8 +30,8 @@ $(function() {
     var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-z]{2,4}$/i);
 
     if(pattern.test($('#contact-email').val())){
-	  $('.message-error').text('');
       $('#contact-email').removeClass('is-danger');
+      $('.email-error').text('');
     }else{
       $('.email-error').text('Please Input Valid Email Adress');
       $('#contact-email').addClass('is-danger');
